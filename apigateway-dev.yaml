@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: productms
+        uri: lb://productms
+        predicates:
+        - Path=/product/v4/**
+        
+config.server.url: http://192.168.99.100:8888
+
+eureka.server.url: http://192.168.99.100:8761/eureka
