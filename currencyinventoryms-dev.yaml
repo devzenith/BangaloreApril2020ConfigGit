@@ -1,0 +1,12 @@
+currencyinventoryms.datasource.url: jdbc:h2:mem:productmsDb;DB_CLOSE_DELAY=-1
+currencyinventoryms.datasource.username: sa
+currencyinventoryms.datasource.password:
+currencyinventoryms.datasource.driver: org.h2.Driver
+
+zipkin.url: http://zipkin:9411/
+rabbitmq.host: rabbitmq-master
+rabbitmq.port: "5672"
+currencyinventoryms.eureka.url: http://eureka:8761/eureka
+
+
+greeting: Hello product
