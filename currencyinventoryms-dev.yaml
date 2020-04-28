@@ -1,4 +1,4 @@
-currencyinventoryms.datasource.url: jdbc:h2:mem:productmsDb;DB_CLOSE_DELAY=-1
+currencyinventoryms.datasource.url: jdbc:h2:mem:currencymsDb;DB_CLOSE_DELAY=-1
 currencyinventoryms.datasource.username: sa
 currencyinventoryms.datasource.password:
 currencyinventoryms.datasource.driver: org.h2.Driver
