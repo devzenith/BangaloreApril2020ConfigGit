@@ -1,7 +1,4 @@
 zipkin.url: http://zipkin:9411/
 rabbitmq.host: rabbitmq-master
 rabbitmq.port: "5672"
-fetchcurrencyms.eureka.url: http://localhost:8761/eureka
-
-
-greeting: Hello product
+fetchcurrencyms.eureka.url: http://eureka:8761/eureka

@@ -6,7 +6,4 @@ currencyinventoryms.datasource.driver: org.h2.Driver
 zipkin.url: http://zipkin:9411/
 rabbitmq.host: rabbitmq-master
 rabbitmq.port: "5672"
-currencyinventoryms.eureka.url: http://localhost:8761/eureka
-
-
-greeting: Hello product
+currencyinventoryms.eureka.url: http://eureka:8761/eureka
